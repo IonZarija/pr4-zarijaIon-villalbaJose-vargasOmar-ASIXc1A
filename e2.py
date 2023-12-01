@@ -1,11 +1,8 @@
 """
 
 """
-
 h = int(input("Alçada?: "))
-
-for i in range(h):
-    print(i+1)
-    for j in range(i):
-        print(""*(i), end="")
+print()
+for i in range(0,h):
+    print(i+1, " "*(i-1), i+1 ,end="")
     print()
