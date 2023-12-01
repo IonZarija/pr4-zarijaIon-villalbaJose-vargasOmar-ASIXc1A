@@ -1,22 +1,16 @@
 """
 Progarma que crea un tablero de escacs
 """
-BLANC = "⬜"
-NEGRE = "⬛"
-i = 0
-for h in range(0, 7):
-    for j in range(0, 7):
+BLANC = "  "
+NEGRE = "██"
 
-        if j == 7:
-            if (j + h) % 2 == 0:
-                print(BLANC, end = "")
-            else:
-                print(NEGRE, end = "")
+for h in range(0, 8):
+    for j in range(0, 8):
 
+        if (j + h) % 2 != 0:
+            print(BLANC, end = "")
         elif (j + h) % 2 == 0:
-            print(BLANC)
-        elif (j + h) % 2 != 0:
-            print(NEGRE)
+            print(NEGRE, end = "")
     print()
 
 
