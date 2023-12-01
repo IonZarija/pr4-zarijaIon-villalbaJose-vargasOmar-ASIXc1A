@@ -5,7 +5,9 @@ num = 0
 null = 0
 pos = 0
 res = 0
-for x in range(0,9):
+i = 0
+vol = int(input("Quantos números desea introducir"))
+while i < vol:
     num = int(input("Introduce una número: "))
     if num == 0:
         null = null + 1
@@ -13,6 +15,6 @@ for x in range(0,9):
         pos = pos + 1
     elif num < 0:
         res = res + 1
-print("Has introducido ",null, " zeros",",", pos, "números positivos, y finalmente, ",res," números negativos")
-
+    i = i + 1
+print("Has introducido ", null, " zeros", ",", pos, "números positivos, y finalmente ", res, " números negativos")
 
