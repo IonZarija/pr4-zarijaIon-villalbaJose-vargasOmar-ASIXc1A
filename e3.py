@@ -1,5 +1,5 @@
 """
-
+Programa que al introducir una cantidad de números enteros, devuelve la cantidad de positivos,negativos y zeros
 """
 ip = 0
 ine = 0
