@@ -10,7 +10,9 @@ pos = 0
 res = 0
 i = 0
 try:
-    vol = int(input("Quantos números desea introducir"))
+    vol = int(input("Quantos números desea introducir: "))
+    while vol < 0:
+        vol = int(input("El número de números tiene que ser positivo: "))
     while i < vol:
         num = int(input("Introduce una número: "))
         if num == 0:
