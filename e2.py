@@ -1,13 +1,18 @@
 """
 
 """
-h = int(input("Alçada?: "))
-y=1
-for i in range(0,h):
-    if i == h-1:
-        print(h*str(h), " "*(h), end="")
-    elif h > i>  0:
-        print(i+1, " "*(i-1), i+1 ,end="")
-    elif i==0:
-        print(y*"1", end="")
-    print()
+h=int(input("Alçada?: "))
+sp = 1
+while h >= 10:
+    h=int(input("Alçada?: "))
+for i in range(1,h+1):
+    if 2 < i < h:
+        print(i, " "*sp, i)
+        sp = sp+2
+    elif i == 1:
+        print(i)
+    elif i == 2:
+        print(i, i)
+    elif i == h:
+        for x in range(i):
+            print(i, sep = " ", end =" ")
