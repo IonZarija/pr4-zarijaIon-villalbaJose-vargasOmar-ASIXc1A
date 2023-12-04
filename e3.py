@@ -1,10 +1,16 @@
 """
-
+Ion Zarija, Omar Vargas, José A. Villalba
+ASIXc 1A
+M03 UF1 Pr4
+Programa que al introducir una cantidad de números enteros, devuelve la cantidad de positivos,negativos y zeros
 """
 ip = 0
 ine = 0
 try:
-    lim = int(input("Límit: "))
+    lim = int(input("Límite: "))
+    while lim < 0:
+        lim = int(input("Introduzca un límite positivo: "))
+
     for i in range(0, lim):
         if i % 2 == 0:
             ip = ip + i

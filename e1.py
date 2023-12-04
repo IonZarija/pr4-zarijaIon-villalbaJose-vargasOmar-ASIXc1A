@@ -1,5 +1,8 @@
 """
-
+Ion Zarija, Omar Vargas, José A. Villalba
+ASIXc 1A
+M03 UF1 Pr4
+Programa que al introducir una cantidad de números enteros, devuelve la cantidad de positivos,negativos y zeros
 """
 num = 0
 null = 0
@@ -7,9 +10,9 @@ pos = 0
 res = 0
 i = 0
 try:
-    vol = int(input("Quantos números desea introducir"))
+    vol = int(input("Cuantos números desea introducir? "))
     while i < vol:
-        num = int(input("Introduce una número: "))
+        num = int(input("Introduce un número: "))
         if num == 0:
             null = null + 1
         elif num > 0:
@@ -20,5 +23,5 @@ try:
 except ValueError:
     print("No has introducido un número natural")
 
-print("Has introducido ", null, " zeros", ",", pos, "números positivos, y finalmente ", res, " números negativos")
+print("Has introducido ", null, " zero/s", ",", pos, "número/s positivo/s, y finalmente ", res, " número/s negativo/s")
 
