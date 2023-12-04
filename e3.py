@@ -8,6 +8,9 @@ ip = 0
 ine = 0
 try:
     lim = int(input("Límite: "))
+    while lim < 0:
+        lim = int(input("Introduzca un límite positivo: "))
+
     for i in range(0, lim):
         if i % 2 == 0:
             ip = ip + i
