@@ -1,5 +1,8 @@
 """
-
+Ion Zarija, Omar Vargas, José A. Villalba
+ASIXc 1A
+M03 UF1 Pr4
+Programa que cuenta cuantos numeros positivos, negativos o zeros has introducido
 """
 num = 0
 null = 0

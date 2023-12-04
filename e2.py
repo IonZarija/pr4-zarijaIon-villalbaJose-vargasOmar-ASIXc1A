@@ -1,5 +1,8 @@
 """
-
+Ion Zarija, Omar Vargas, José A. Villalba
+ASIXc 1A
+M03 UF1 Pr4
+Programa que hace una pirámide
 """
 h = int(input("Alçada?: "))
 while h >= 10:
