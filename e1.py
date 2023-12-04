@@ -7,7 +7,7 @@ pos = 0
 res = 0
 i = 0
 try:
-    vol = int(input("Quantos números desea introducir? "))
+    vol = int(input("Cuantos números desea introducir? "))
     while i < vol:
         num = int(input("Introduce un número: "))
         if num == 0:

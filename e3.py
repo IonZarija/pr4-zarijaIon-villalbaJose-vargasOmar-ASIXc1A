@@ -4,7 +4,7 @@ Programa que al introducir una cantidad de números enteros, devuelve la cantida
 ip = 0
 ine = 0
 try:
-    lim = int(input("Límit: "))
+    lim = int(input("Límite: "))
     for i in range(0, lim):
         if i % 2 == 0:
             ip = ip + i
