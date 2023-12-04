@@ -1,5 +1,7 @@
 """
-
+Ion Zarija, Omar Vargas, José A. Villalba
+ASIXc 1A
+M03 UF1 Pr4
 """
 h = int(input("Alçada?: "))
 y=1
